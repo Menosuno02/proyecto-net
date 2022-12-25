@@ -1,4 +1,4 @@
-﻿using Plantilla.Modelos.Exceptions;
+using Plantilla.Modelos.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -90,7 +90,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -117,7 +117,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -143,7 +143,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
             }
@@ -171,7 +171,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -198,7 +198,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -225,7 +225,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -255,7 +255,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -280,7 +280,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -298,7 +298,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -331,7 +331,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -356,7 +356,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -393,7 +393,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -419,7 +419,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -455,7 +455,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -494,7 +494,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -516,7 +516,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -554,7 +554,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -585,7 +585,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -606,7 +606,7 @@ namespace Plantilla.Modelos.BBDD
                         catch (SqlException err)
                         {
                             this.Cerrar();
-                            throw err;
+                            throw;
                         }
                     }
                     else
@@ -626,7 +626,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -646,7 +646,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -664,7 +664,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -685,7 +685,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -736,7 +736,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -818,7 +818,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -848,7 +848,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -878,7 +878,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -982,7 +982,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -1039,7 +1039,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -1062,7 +1062,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -1084,7 +1084,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -1113,7 +1113,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -1141,7 +1141,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -1172,7 +1172,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -1196,7 +1196,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
@@ -1231,7 +1231,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -1256,7 +1256,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -1278,7 +1278,7 @@ namespace Plantilla.Modelos.BBDD
                 catch (SqlException err)
                 {
                     this.Cerrar();
-                    throw err;
+                    throw;
                 }
             }
             else
@@ -1308,7 +1308,7 @@ namespace Plantilla.Modelos.BBDD
                     catch (SqlException err)
                     {
                         this.Cerrar();
-                        throw err;
+                        throw;
                     }
                 }
                 else
